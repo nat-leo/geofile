@@ -1,0 +1,17 @@
+[project]
+name = "geofile"
+version = "1.0.0"
+description = "Geospatial File Conversion Tool"
+authors = [
+    { name = "Nat Liu", email = "n8wyliu@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "geopandas",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
